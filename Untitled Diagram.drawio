@@ -5,16 +5,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wg7_ObE9FOS7hgl4LA-m-1" value="&lt;b&gt;Benutzer&lt;/b&gt;:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Name : String&lt;/div&gt;&lt;div&gt;- mail : String&lt;/div&gt;&lt;div&gt;- password : String&lt;/div&gt;&lt;div&gt;- Konten : String&lt;/div&gt;&lt;div&gt;- konto_hizufügen ()&lt;/div&gt;&lt;div&gt;- konto_löschen ()&lt;/div&gt;&lt;div&gt;- gesamt_budget_anzeigen ()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="80" width="200" height="280" as="geometry" />
+          <mxGeometry x="-220" y="80" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="wg7_ObE9FOS7hgl4LA-m-3" value="&lt;div&gt;&lt;b&gt;Konto:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- kontostand : Float&lt;/div&gt;&lt;div&gt;- konto_iban : String&lt;/div&gt;&lt;div&gt;-konto_bic : Int&lt;/div&gt;&lt;div&gt;-konto_nr: Int&lt;/div&gt;&lt;div&gt;-transaktionen : Striing[]&lt;/div&gt;&lt;div&gt;-einzahlung()&lt;/div&gt;&lt;div&gt;- auszahlung()&lt;/div&gt;&lt;div&gt;- transaktion_ausgehen()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="80" width="200" height="280" as="geometry" />
+          <mxGeometry x="10" y="80" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="wg7_ObE9FOS7hgl4LA-m-4" value="&lt;b&gt;Transaktion&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- betrag : String&lt;/div&gt;&lt;div&gt;- datum : Datum&lt;/div&gt;&lt;div&gt;- kategorie: String&lt;/div&gt;&lt;div&gt;- beschreibung: String&lt;/div&gt;&lt;div&gt;- kategorie_hinzufügen ()&lt;/div&gt;&lt;div&gt;- beschreibung_hinzu ()&lt;/div&gt;&lt;div&gt;- beschreibung_aug ()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="200" height="280" as="geometry" />
+          <mxGeometry x="240" y="80" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="wg7_ObE9FOS7hgl4LA-m-5" value="&lt;b&gt;Budget&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;monatsBetrag: string&lt;/div&gt;&lt;div&gt;max_budget: String&lt;/div&gt;&lt;/div&gt;&lt;div&gt;aktuelle_augl: String&lt;/div&gt;&lt;div&gt;aktionen_einahmen: String&lt;/div&gt;&lt;div&gt;budget_aktualisieren ()&lt;/div&gt;&lt;div&gt;budget_überschreiten ()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="80" width="200" height="280" as="geometry" />
+          <mxGeometry x="470" y="80" width="200" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
